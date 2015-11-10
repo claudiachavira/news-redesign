@@ -1,0 +1,277 @@
+.logo {
+	width: 100%;
+	height: auto;
+	padding: 20px 0px 20px 20px;
+}
+
+.tagline {
+	font-family: 'PT Sans Narrow', serif;
+	font-size: 24px;
+	padding-left: 20px;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	word-spacing: 38px;
+	padding-bottom: 20px;
+}
+
+ul li {
+	text-decoration: none;
+	line-height: 23px;
+	font-size: 20px;
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-weight: bold;
+	padding: 5px 0px 5px 20px;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+	font-family: 'PT Sans Narrow';
+}
+
+.left {
+	text-decoration: none;
+}
+
+.left:hover {
+	color: #EE3322;
+}
+
+span{
+	background: #ffffa8;
+}
+
+.promoted {
+	margin-left: 20px;
+	margin-top: 20px;
+	padding-top: 5px;
+}
+
+
+.navigation {
+	background-color: #ffffa8;
+	margin-top: 20px;
+}
+
+.nav {
+	font-family: 'PT Sans Narrow', serif;
+	font-size: 14px;
+	text-transform: uppercase;
+	padding-left: 20px;
+	float: left;
+	background-color: #ffffa8;
+
+}
+
+.headline:hover {
+	color: #EE3322;
+
+}
+
+#menu {
+	position: fixed;
+	left: 0;
+	top: 0;
+	right: 0;
+
+}
+
+.mainstory {
+	padding-top: 10px;
+	width:100%;
+	height:auto;
+	border-bottom: 1px solid black;
+	padding-bottom: 20px;
+}
+
+
+
+h1 {
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-weight: bold;
+	font-size: 25px;
+	text-transform: uppercase;
+	text-align: center;
+	padding-top: 20px;
+	border-top: 1px solid black;
+	margin-top: 20px;
+}
+
+h2 {
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-size: 15px;
+	text-align: center;
+}
+
+h3 {
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-weight: bold;
+	font-size: 20px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	text-align: center;
+}
+
+.trending{
+	margin-bottom: 20px;
+	width: 50%;
+	height: auto;
+}
+
+.buzz {
+	color: #EE3322;
+	text-decoration: none;
+	font-style: 'PT Sans Narrow';
+	font-weight: bold;
+	font-size: 12px;
+	text-transform: uppercase;
+	background-color: #FFFFFF;
+	border-radius: 5px;
+	border: 1px solid #EE3322;
+	padding: 10px 10px 10px 10px;
+	display: inline-block;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	clear: left;
+
+
+}
+
+.buzz:hover {
+	color: #FFFFFF;
+	background-color: #EE3322;
+}
+
+.trend{
+	float: left;
+	width: 130px;
+	margin-right: 30px;
+}
+
+p {
+	font-family: 'PT Sans Narrow';
+}
+
+
+.kicker {
+	text-transform: uppercase;
+	font-style: 'PT Sans Narrow';
+	font-size: 17px;
+	padding-top: 20px;
+	padding-bottom: 5px;
+}
+
+
+h4 {
+	font-size: 12px;
+	font-family: 'PT Sans Narrow';
+	color: #404040;
+	text-align: center;
+
+}
+
+
+
+
+h5 {
+	font-family: 'PT Sans Narrow';
+	font-size: 30px;
+	text-transform: uppercase;
+	padding-bottom: 10px;
+	padding-top: 20px;
+
+}
+
+.filler {
+
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+.news {
+	float: left;
+	width: 130px;
+	margin-right: 30px;
+}
+
+
+.byline {
+	font-size: 12px;
+	color: #404040;
+	padding-top: 2px;
+}
+
+.footer {
+	float: right;
+}
+
+
+
+
+
+
+
+
+
+.show-desktop {
+    display: block;
+}
+
+.show-mobile {
+    display: none;
+}
+
+@media (max-width: 600px) {
+    .show-desktop {
+        display: none;
+    }
+
+    .show-mobile {
+        display: block;
+    }
+
+    .logo {
+    	width: 50%;
+    	height: auto;
+    }
+
+    .tagline {
+    	font-size: 12px;
+    	word-spacing: 19px;
+    }
+
+    ul li {
+    	font-size: 15px;
+    	line-height: 10px;
+    
+    }
+
+        }
+
+
+
+
+/* Mobile first queries */
+
+/* Larger than mobile */
+@media (min-width: 305px) {}
+
+/* Larger than phablet */
+@media (min-width: 550px) {}
+
+/* Larger than tablet */
+@media (min-width: 750px) {
+    
+}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {}
+
+
+
+
+
+
